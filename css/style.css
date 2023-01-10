@@ -1,0 +1,754 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,100&family=Montserrat:wght@500;800&display=swap');
+
+
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 35px; 
+    text-align: end;
+}
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 20px 
+    
+}
+
+h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+a:hover{
+    color: rgb(248, 2, 2);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.contindex{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "head head head"
+    "nav main asi"
+    "nav main asi"
+    "nav foot asi"   
+    ;
+    background-image: url(../img/fondo2.png);
+    
+}
+
+.header{
+    grid-area: head;
+    background-color: rgba(67, 11, 179, 0.079);
+}
+.main{
+    grid-area: main;
+    background-color: rgba(67, 11, 179, 0.079);
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+
+
+.asi{
+    grid-area: asi;
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(67, 11, 179, 0.079);
+}
+.foot{
+    grid-area:foot ;
+    /* background-color: green; */
+    background-color: rgba(67, 11, 179, 0.079);
+}
+.nav{
+    
+    grid-area: nav;
+    background-color: rgba(67, 11, 179, 0.079);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.selecidx{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.inst{
+
+    width: 35px;
+    height: 35px;
+   
+    
+}
+.wh{
+    width: 35px;
+    height: 35px;
+}
+.bu{
+    width: 35px;
+    height: 35px;
+}
+.inst img{
+    width: 100%;
+    height: 100%;
+}
+.wh img{
+    width: 100%;
+    height: 100%;
+}
+.bu img{
+    width: 100%;
+    height: 100%;
+} 
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    
+    
+   
+}
+.logo img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+.main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    text-align: end;
+    padding-right: 50px;
+    padding-top: 70px;
+}
+.sica{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31); 
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/descarga\ \(2\)\ \(1\).png);
+    background-size: 100% 100%;
+    }
+    
+    
+.jeluz{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/2-JELKIT1P.jpg\ \(1\)\ \(1\).jpg)
+    
+    }
+
+
+.candela{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/Logo-candela-200x200\ \(1\)\ \(1\).jpg)
+    
+    }   
+
+.osnram{
+    border-radius: 10px;
+    box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+    height: 72px;
+    width: 200px;
+    background-image: url(../img/descarga\ \(1\)\ \(1\).png)
+    
+    }
+
+
+}
+.mapgoogle{
+    width: 100%;
+}
+.contain-dest{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "header header header"
+    "nav main main"
+    "nav main main"
+    "nav foot foot"   
+    ;
+    background-image: url(../img/fondo-destacados.jpg);
+    background-size: 100% 100%;
+    
+}
+.nav-dest{
+    grid-area: nav;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.logo-dest{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+   
+}
+.logo-dest img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.selec-dest{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons-dest{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.main-dest{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dest-tit{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/* estilos tienda */
+
+
+
+
+
+
+.contain-ti{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+  
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "head head head"
+    "nav main main"
+    "nav main main"
+    "nav foot foot"   
+    ;
+    background-color:rgb(14, 23, 31) ;
+    
+}
+.main-ti{
+    grid-area: main;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.nav-ti{
+    grid-area: nav;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-ti{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+   
+}
+.logo-ti img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.selec-ti{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons-ti{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.foot-ti{
+    text-align: center;
+    grid-area: foot;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+/* estilos contacto */
+
+.main-cont{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contain-cont{
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "head head" 
+    "nav main"
+    "nav main" 
+    "nav foot"  
+    ;
+    background-color:rgb(14, 23, 31) ;
+}
+.nav-cont{
+    grid-area: nav;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-cont{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+   
+}
+.logo-cont img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.selec-cont{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.foot-cont{
+    grid-area: foot;
+    text-align: center;
+}
+
+
+
+/* estilos aca estamos */
+
+.main-aca{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contain-aca{
+    height: 100vh;
+    display: grid;
+    
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    grid-template-areas: 
+    "head head" 
+    "nav main"
+    "nav main" 
+    "nav foot"  
+    ;
+    background-image: url(../img/fondo\ aca.jpg) ;
+}
+.nav-aca{
+    grid-area: nav;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-aca{
+    display: flex;
+    flex-direction: column;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+   
+}
+.logo-aca img{
+    width: 70%;   
+    /* justify-content: center;  */
+}
+.selec-aca{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    
+}
+.icons-aca{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+.foot-aca{
+    grid-area: foot;
+    text-align: center;
+}
+.mapgoogle{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px){
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px){
+    h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .contindex{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 200px 1fr ;
+        grid-template-rows: 50px 1fr 75px 100px;
+        grid-template-areas: 
+        "asi asi asi"
+        "nav main main"
+        "nav main main"
+        "nav foot foot"   
+        ;
+      
+    }
+    .main{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: end;
+        padding-right: 50px;
+        padding-top: 70px;
+    }
+
+    .asi{
+        grid-area: asi;
+        background-color: coral; 
+        
+        height: 100%;
+        width: 100%;
+        background-color: rgba(67, 11, 179, 0.079);
+    }
+    
+    .asi{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sica{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31); 
+        height: 36px;
+        width: 100px;
+        
+    
+    
+    
+    }
+
+    .jeluz{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+        height: 36px;
+        width: 100px;
+        background-size: 100% 100%;
+    }
+    
+    .candela{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+        height: 36px;
+        width: 100px;
+        background-size: 100% 100%;
+
+    }
+
+    .osnram{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+        height: 36px;
+        width: 100px;
+        background-size: 100% 100%;
+        
+    }
+}
+@media screen and (max-width: 480px){
+        .contindex{
+        height: 100vh;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50px 1fr 100px 75px;
+        grid-template-areas: 
+        "main"
+        "nav"
+        "foot" 
+        "asi"
+        ;
+      background-image: url(../img/fondo-index-cel.jpg);
+      background-size: 100% 100%;
+      position: fixed;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .main{
+        grid-area: main;
+        display: none;
+         }
+    .main h1{
+        text-align: center; */
+    }
+    /* .nav{
+        grid-area: nav;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    } */
+
+       .logo img{
+        grid-area: nav;
+        width: 30%;   
+        justify-content: center;  
+    } 
+    .logo-aca{
+        width: 100%;  
+    }
+    .logo-aca img{
+        grid-area: nav;
+        width: 30%;   
+        justify-content: center;  
+    .asi{
+        grid-area: asi;
+    }
+    .foot{
+        grid-area: foot;
+    } */ 
+    
+    .div h1{
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    .candela{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+        height: 36px;
+        width: 100px;
+        background-size: 100% 100%;
+        display: none;
+    }
+    .contain-aca{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 100px;
+        grid-template-areas: 
+        "nav"
+        "main1"
+        "foot"
+           
+        ;
+        background-image: url(../img/fondo\ aca.jpg);
+    }
+    .main main-aca mapgoogle iframe{
+        grid-area: main1;
+        width: 100%;
+        height: 100%;
+    }
+}    
+@media (max-width: 320px){
+    .contindex{
+        height: 100vh;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 50px 1fr 100px 75px;
+        grid-template-areas: 
+        "main"
+        "nav"
+        "foot" 
+        "asi"
+        ;
+    }
+    .jeluz{
+        border-radius: 10px;
+        box-shadow: 9px 12px 5px 0px rgba(0,0,0,0.31);
+        height: 36px;
+        width: 100px;
+        background-size: 100% 100%;
+        display: none;
+    }
+
+
+
+
+
+
+
+}
